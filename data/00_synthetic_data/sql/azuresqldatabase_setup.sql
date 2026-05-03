@@ -54,7 +54,11 @@ CREATE TABLE SCHEMA_NAME.restaurants (
 -- Now run projects/databricks-e2e-project/sql/utility_script.sql
 -- https://docs.databricks.com/aws/en/ingestion/lakeflow-connect/sql-server-utility
 
+<<<<<<< HEAD
 ALTER DATABASE resturantops SET CHANGE_TRACKING = ON (CHANGE_RETENTION = 14 DAYS, AUTO_CLEANUP = ON);
+=======
+ALTER DATABASE DB_NAME SET CHANGE_TRACKING = ON (CHANGE_RETENTION = 14 DAYS, AUTO_CLEANUP = ON);
+>>>>>>> 4bd050e43ba40302afd92a366cb2c1dbac093ff4
 
 -- Note: replace 'dbo' with the schema you're using
 ALTER TABLE dbo.customers ENABLE CHANGE_TRACKING;
