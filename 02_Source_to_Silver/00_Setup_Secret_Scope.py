@@ -1,13 +1,17 @@
 # Databricks notebook source
+# /// script
+# [tool.databricks.environment]
+# environment_version = "1"
+# ///
 # =====================================================
 # 1️⃣ Define Connection Variables (EDIT THESE)
 # =====================================================
 
-sqlserver_host = "your-sql-server.database.windows.net"
+sqlserver_host = "aniserver.database.windows.net"
 sqlserver_port = "1433"
-sqlserver_database = "your_database"
-sqlserver_user = "your_username"
-sqlserver_password = "your_password"
+sqlserver_database = "anisqldb"
+sqlserver_user = "aniadmin"
+sqlserver_password = "ani@admin123"
 
 # Secret scope name (will be created if not exists)
 secret_scope_name = "banking-scope"
