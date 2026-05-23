@@ -1,1 +1,0 @@
-# databricks-e2e-project-resturant by Anindya Chakraborty
