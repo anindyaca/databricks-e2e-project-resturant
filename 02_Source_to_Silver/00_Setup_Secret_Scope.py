@@ -7,11 +7,11 @@
 # 1️⃣ Define Connection Variables (EDIT THESE)
 # =====================================================
 
-sqlserver_host = "aniserver.database.windows.net"
+sqlserver_host = ""
 sqlserver_port = "1433"
-sqlserver_database = "anisqldb"
-sqlserver_user = "aniadmin"
-sqlserver_password = "ani@admin123"
+sqlserver_database = ""
+sqlserver_user = ""
+sqlserver_password = ""
 
 # Secret scope name (will be created if not exists)
 secret_scope_name = "banking-scope"
@@ -171,8 +171,8 @@ import requests
 import json
 
 scope = secret_scope_name          # Already existing scope
-secret_key = 'gmail_api_key'       # Name of the secret entry
-secret_value = '<Your gmail api key>' # Value to store securely
+secret_key = ''       # Name of the secret entry
+secret_value = '' # Value to store securely
 
 # -------------------------------------------------
 # API Endpoint

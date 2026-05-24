@@ -1,4 +1,8 @@
 # Databricks notebook source
+# /// script
+# [tool.databricks.environment]
+# environment_version = "1"
+# ///
 dbutils.widgets.text("run_id", "")
 job_run_id = dbutils.widgets.get("run_id")
 
@@ -97,7 +101,7 @@ print(body)
 
 # COMMAND ----------
 
-subject = f"NeoBank | {overall_status} | End to End Run"
+subject = f"Chakraborty's bank | {overall_status} | End to End Run"
 
 print(subject)
 
@@ -115,11 +119,11 @@ from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
 
 # Gmail account
-EMAIL = "databeli13@gmail.com"
+EMAIL = "anindya.catalyst@gmail.com"
 APP_PASSWORD = gmail_api_key
 
 # Receiver
-to_email = "databeli13@gmail.com"
+to_email = "anindyachakraborty@outlook.com"
 
 # Create message
 msg = MIMEMultipart()
